@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Introduction.WelcomeText();
             Console.WriteLine("Welcome to the Dragonball Z game!");
 
             // Initialise the game variables
@@ -14,7 +15,7 @@
             while (playerHealth > 0 && opponentHealth > 0)
             {
                 // Display the game status
-                Console.WriteLine($"Plaer Health: {playerHealth}");
+                Console.WriteLine($"Player Health: {playerHealth}");
                 Console.WriteLine($"Opponent Health: {opponentHealth}");
                 Console.WriteLine("1. Attack");
                 Console.WriteLine("2. Defend");

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonballZ", "DragonballZ.csproj", "{5B0A2BEA-F5D0-4861-934C-5CD23CB7FD4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DragonballZ", "DragonballZ.csproj", "{5B0A2BEA-F5D0-4861-934C-5CD23CB7FD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonballZTests", "..\DragonballZTests\DragonballZTests.csproj", "{63A302F8-99F5-4FA7-B59E-F79C75BAF810}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5B0A2BEA-F5D0-4861-934C-5CD23CB7FD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B0A2BEA-F5D0-4861-934C-5CD23CB7FD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B0A2BEA-F5D0-4861-934C-5CD23CB7FD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A302F8-99F5-4FA7-B59E-F79C75BAF810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A302F8-99F5-4FA7-B59E-F79C75BAF810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A302F8-99F5-4FA7-B59E-F79C75BAF810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A302F8-99F5-4FA7-B59E-F79C75BAF810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
